@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct CryptocurrencyMapResponse: Decodable {
+public struct CryptocurrencyMapResponse: Decodable, Sendable {
     
     public let data: [Cryptocurrency]
 }

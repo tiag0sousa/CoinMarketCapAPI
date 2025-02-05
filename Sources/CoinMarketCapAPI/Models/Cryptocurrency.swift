@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Cryptocurrency: Decodable {
+public struct Cryptocurrency: Decodable, Sendable {
 
     public let id: Int
     public let rank: Int
